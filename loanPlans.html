@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav_bar">
+                <div class="title_page">
+                    <div  class="logo-img">
+                        <img src="assets/money.png" alt="" width="50px">
+                    </div>
+                    <h1>LOAN MANAGEMENT SYSTEM</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="side_navbar">
+        <div class="side_container">
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="loan.html">LOANS</a></li>
+                <li><a href="payment.html">PAYMENT</a></li>
+                <li><a href="borrower.html">BORROWERS</a></li>
+                <li><a href="loanPlans.html">LOAN PLANS % <br> TYPES</a></li>
+                <li><a href="report.html">REPORTS</a></li>
+                <li><a href="user.html">USER</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+    <main class="main-container">
+        <div class="container-page">
+            <div class="plan-form-left">
+                <div class="plan-title">
+                    <h4>Plan's Form</h4>
+                </div>
+                <div class="plan-schedule">
+                    <div class="plan-container">
+                        <form action="">
+                            <div>
+                                <label for="">Plan (Months)</label>
+                                <input type="month"><br>
+                            </div>
+                            <div>
+                                <label for="">Interest</label><br>
+                                <input type="number"><br>
+                            </div>
+                            <div>
+                                <label for="">Month Over due's Penalty</label>
+                                <input type="month">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="plan-button">
+                    <button class="saveBtn">Save</button>
+                    <button class="cancelBtn">Cancel</button>
+                </div>
+            </div>
+            <div class="plan-form-right">
+                <div class="table-container">
+                    <table class="planLoan-container">
+                        <tr>
+                            <th>#</th>
+                            <th>PLAN</th>
+                            <th>ACTION</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>Years/Month: 3yrs. <br>
+                                Interest: 8% <br>
+                                Over dure Penalty: 3%</th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Years/Month: 2yrs. <br>
+                                Interest: 5% <br>
+                                Over dure Penalty: 2%</th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Years/Month: 2 yrs. and 3months <br>
+                                Interest: 6% <br>
+                                Over dure Penalty: 2%
+                                </th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="main-container">
+        <div class="container-page">
+            <div class="plan-form-left">
+                <div class="plan-title">
+                    <h4>Plan's Form</h4>
+                </div>
+                <div class="plan-schedule">
+                    <div class="plan-container-second">
+                        <form action="">
+                            <div>
+                                <label for="">Type</label>
+                                <input type="text"><br>
+                            </div>
+                            <div>
+                                <label for="">Description</label><br>
+                                <input type="text"><br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="plan-button">
+                    <button class="saveBtn">Save</button>
+                    <button class="cancelBtn">Cancel</button>
+                </div>
+            </div>
+            <div class="plan-form-right">
+                <div class="table-container">
+                    <table class="planLoan-container">
+                        <tr class="center-text">
+                            <th>#</th>
+                            <th>PLAN</th>
+                            <th>ACTION</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>Type Name: Small Business <br>
+                                Description: Small Business Loans</th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Type Name: Small Business <br>
+                                Description: Small Business Loans</th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Type Name: Personal Loans <br>
+                                Description: Personal Loans
+                                </th>
+                            <th>
+                                <button class="editBtn">Edit</button>
+                                <button class="saveBtn">Save</button>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
